@@ -4,11 +4,8 @@ body {
     align-items: center;
     margin: auto;
     font-family: "Roboto", sans-serif;
-    background: #009dff;
-    background: linear-gradient(180deg, rgba(0, 157, 255, 1) 0%, rgba(250, 250, 22, 1) 50%, rgba(201, 32, 32, 1) 100%);
-    
+    background-color: #fff;
 }
-
 
 .container {
     text-align: center;
@@ -22,59 +19,69 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
-    border: 1px solid red;
-    margin-bottom: 160px;
+    margin-bottom: 110px;
+    box-shadow: 0 0 5px black ;
 }
 
 .top-bar {
-    height: 150px;
+    height: 200px;
     width: 100vw;
     background-image: url("../img/quebra-cabeca.png");
-    background-size:20%;
+    background-size:60%;
     background-repeat: repeat;
 }
 
-.photo-profile {
-    background-color: blue;
-    padding: 10px;
-    margin: 10px;
-    width: 150px;
-    position: absolute;
-    top: 70px;
-}
-
-.photo-profile img {
-    width: 150px;
+.top-bar h1, .top-bar h2 {
+    background-color: #2658A5;
 }
 
 h1 {
     color: white;
-    text-shadow: 0 0 5px black;
-    font-family: "Roboto", sans-serif;
     font-weight: 900;
 }
 
 h2 {
     text-transform: uppercase;
     color: white;
-    text-shadow: 0 0 5px black;
+    font-size: .75rem;
+    padding-bottom: 5px;
+}
+
+.photo-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    position: absolute;
+    top: 70px;
+    box-shadow: 0 0 5px black ;
+}
+
+.photo-profile img {
+    width: 150px;
 }
 
 #name {
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 1.75rem;
+    font-size: 2rem;
 }
 
 .laws {
     text-align: center;
     margin: 10px;
+    color: #2658A5;
+    font-weight: 600;
 }
 
 .data {
-    background-color: azure;
+    background-color: rgb(214, 235, 252);
     text-align: center;
     border-radius: 8px;
+    padding: 10px;
     margin: 10px;
 }
 
@@ -86,7 +93,7 @@ h2 {
     border: 1px solid black;
     border-radius: 8px;
     text-align: left;
-    margin: 10px;
+    margin: 10px 0;
 }
 
 .contact a {
@@ -96,20 +103,25 @@ h2 {
 }
 
 .link-laudo {
-    background-color: blue;
-    font-size: 1.25rem;
-    padding: .75rem 2rem;
-    margin: 3rem;
+    background-color: rgb(24, 24, 225);
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 20px;
     border-radius: 50px;
 }
 
 .link-laudo a {
     color: white;
     text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 footer {
+    background-color: #2658A5;
+    width: 100%;
     font-size: .75rem;
     text-align: center;
     padding: 1rem;
+    color: white;
 }
