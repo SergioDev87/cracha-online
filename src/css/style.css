@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.photo-profile img {
+    width: 150px;
+}
+
+h1 {
+    color: blue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+#name {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.75rem;
+}
+
+.laws {
+    text-align: center;
+}
+
+footer {
+    font-size: .75rem;
+    text-align: center;
+    padding: 1rem;
+}
