@@ -71,6 +71,10 @@ h2 {
     font-size: 2rem;
 }
 
+#cid {
+    font-weight: bold;
+}
+
 .laws {
     text-align: center;
     margin: 10px;

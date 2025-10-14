@@ -3,6 +3,7 @@
     "id": "001",
     "photoProfile": "src/img/photo-profile/Abel_Martins_Sousa.jpg",
     "nomeCompleto": "Abel Martins Sousa",
+    "cid": "CID 10: F84.0",
     "dataNascimento": "03/11/2020",
     "responsaveis": {
       "mae": "Noeli Aurelina Martins Sousa",
@@ -18,6 +19,7 @@
     "id": "002",
     "photoProfile": "src/img/photo-profile/Maria_Eduarda_ Silva.jpg",
     "nomeCompleto": "Maria Eduarda Silva",
+    "cid": "CID 10: F84.0",
     "dataNascimento": "15/07/2018",
     "responsaveis": {
       "mae": "Ana Paula Silva",
@@ -33,6 +35,7 @@
     "id": "003",
     "photoProfile": "src/img/photo-profile/Lucas_Oliveira_ Santos.jpg",
     "nomeCompleto": "Lucas Oliveira Santos",
+    "cid": "CID 10: F84.0",
     "dataNascimento": "22/02/2019",
     "responsaveis": {
       "mae": "Carla Oliveira Santos",

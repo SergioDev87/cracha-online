@@ -22,6 +22,7 @@ fetch('src/json/dados.json')
     document.getElementById('name').textContent = primeiroNome;
 
     // Exibir dados na página
+    document.getElementById('cid').textContent = pessoa.cid;
     document.getElementById('full-name').textContent = pessoa.nomeCompleto;
     document.getElementById('birth').textContent = pessoa.dataNascimento;
     document.getElementById('mae').textContent = pessoa.responsaveis.mae;
