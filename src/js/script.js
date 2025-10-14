@@ -1,7 +1,6 @@
 // Pegar o ID no final da URL
 const url = window.location.href;
 const id = url.substring(url.lastIndexOf('=') + 1);
-console.log('ID capturado:', id);
 
 // 2. Buscar no JSON
 fetch('src/json/dados.json')
